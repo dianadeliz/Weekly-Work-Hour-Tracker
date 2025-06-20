@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+# Weekly Work Hour Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, responsive web application for tracking and summing weekly work hours. This tool allows users to input hours and minutes for two separate weeks, automatically calculating weekly totals and a grand total.
 
-## Available Scripts
+![Hour Manager Screenshot](https://i.imgur.com/your-screenshot.png) <!-- Replace with a real screenshot URL -->
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Two-Week View**: Enter hours and minutes for two separate 7-day weeks.
+- **Automatic Totals**: Calculates the total hours and minutes for each week.
+- **Grand Total**: Automatically sums the totals from both weeks for a final grand total.
+- **Reset Functionality**: A "Reset All" button with a confirmation modal to clear all inputs safely.
+- **Responsive Design**: A clean, mobile-friendly interface that works on all devices.
+- **User-Friendly Interface**: Centered labels and inputs for a clear, organized look.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Frontend**: React, Bootstrap, React-Bootstrap
+- **Deployment**: Vercel (or any static site hosting service)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running, follow these simple steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (which includes npm) must be installed on your machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/your-repo-name.git
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd hour-manager
+    ```
+3.  **Install NPM packages:**
+    ```sh
+    npm install
+    ```
 
-### `npm run eject`
+### Running the Application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To start the development server, run the following command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This will open the application in your default browser at `http://localhost:3000`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Deployment
 
-## Learn More
+This application is ready to be deployed to any static site hosting service like Vercel, Netlify, or GitHub Pages.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+For Vercel, simply connect your GitHub repository and follow the on-screen instructions to deploy. Vercel will automatically detect that it's a Create React App project and configure the build settings for you. 
